@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Panchal AI Support</title>
+
+<style>
+
+/* ===== BACKGROUND + GLOW ===== */
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: radial-gradient(circle at center, #0f172a, #020617);
+    overflow: hidden;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(59,130,246,0.25), transparent 60%);
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    top: var(--y, 50%);
+    left: var(--x, 50%);
+}
+
+/* ===== CONTAINER ===== */
+.chat-container {
+    width: 420px;
+    height: 650px;
+    background: rgba(30, 41, 59, 0.85);
+    backdrop-filter: blur(10px);
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 40px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.5);
+}
+
+/* ===== HEADER ===== */
+.header {
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(90deg, #3b82f6, #06b6d4);
+}
+
+/* ===== CHAT ===== */
+.chat-box {
+    flex: 1;
+    padding: 15px;
+    overflow-y: auto;
+}
+
+/* ===== MESSAGE ===== */
+.msg-row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.user-row {
+    justify-content: flex-end;
+}
+
+.message {
+    padding: 12px 15px;
+    border-radius: 16px;
+    max-width: 75%;
+    font-size: 14px;
+    line-height: 1.4;
+    color: white;
+    animation: fadeIn 0.3s ease;
+}
+
+.message:hover {
+    transform: scale(1.02);
+}
+
+/* ===== USER / BOT ===== */
+.user {
+    background: linear-gradient(135deg, #3b82f6, #2563eb);
+}
+
+.bot {
+    background: linear-gradient(135deg, #334155, #475569);
+}
+
+/* ===== TIMESTAMP ===== */
+.timestamp {
+    font-size: 10px;
+    opacity: 0.6;
+    margin-top: 4px;
+}
+
+/* ===== INPUT ===== */
+.input-area {
+    display: flex;
+    padding: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+button {
+    margin-left: 10px;
+    padding: 10px;
+    background: linear-gradient(135deg, #3b82f6, #06b6d4);
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* ===== PRODUCT ===== */
+.product-card {
+    background: #1e293b;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+/* ===== OPTIONS ===== */
+.option-btn {
+    margin: 5px;
+    padding: 8px;
+    background: #10b981;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+/* ===== ANIMATION ===== */
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(5px);}
+    to {opacity: 1;}
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="chat-container">
+
+    <div class="header">🤖 Panchal AI Support</div>
+
+    <div class="chat-box" id="chat"></div>
+
+    <div class="input-area">
+        <input id="input" placeholder="Ask about products, pricing..." />
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+</div>
+
+<script>
+
+let session_id = Math.random().toString(36).substring(7);
+let typingElement = null;
+
+/* ===== MOUSE GLOW ===== */
+document.addEventListener("mousemove", e => {
+    document.body.style.setProperty('--x', e.clientX + 'px');
+    document.body.style.setProperty('--y', e.clientY + 'px');
+});
+
+/* ===== TIME ===== */
+function getTime() {
+    let d = new Date();
+    return d.getHours() + ":" + String(d.getMinutes()).padStart(2, '0');
+}
+
+/* ===== MESSAGE ===== */
+function addMessage(text, type) {
+
+    let chat = document.getElementById("chat");
+
+    let row = document.createElement("div");
+    row.classList.add("msg-row");
+
+    if (type === "user") row.classList.add("user-row");
+
+    let msg = document.createElement("div");
+    msg.classList.add("message", type);
+
+    msg.innerHTML = text + `<div class="timestamp">${getTime()}</div>`;
+
+    row.appendChild(msg);
+
+    chat.appendChild(row);
+    chat.scrollTop = chat.scrollHeight;
+}
+
+/* ===== TYPING ===== */
+function showTyping() {
+    let chat = document.getElementById("chat");
+
+    typingElement = document.createElement("div");
+    typingElement.classList.add("message", "bot");
+    typingElement.innerText = "Typing...";
+
+    chat.appendChild(typingElement);
+}
+
+function removeTyping() {
+    if (typingElement) typingElement.remove();
+}
+
+/* ===== PRODUCT ===== */
+function addProduct(p) {
+    addMessage(`
+        <div class="product-card">
+            <b>${p.name}</b><br>
+            Price: ${p.price}<br>
+            ${p.description}
+        </div>
+    `, "bot");
+}
+
+/* ===== BROCHURE ===== */
+function addBrochureOptions(msg) {
+    addMessage(`
+        ${msg}<br><br>
+        <div class="option-btn" onclick="sendOption('Email')">Email</div>
+        <div class="option-btn" onclick="sendOption('WhatsApp')">WhatsApp</div>
+        <div class="option-btn" onclick="sendOption('Download')">Download</div>
+    `, "bot");
+}
+
+function sendOption(opt) {
+    addMessage(opt, "user");
+    sendToBackend(opt);
+}
+
+/* ===== SEND ===== */
+function sendMessage() {
+
+    let input = document.getElementById("input");
+    let msg = input.value;
+
+    if (!msg) return;
+
+    addMessage(msg, "user");
+    input.value = "";
+
+    showTyping();
+    sendToBackend(msg);
+}
+
+/* ===== API CALL ===== */
+function sendToBackend(msg) {
+
+    fetch("http://127.0.0.1:8000/chat", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({
+            message: msg,
+            session_id: session_id
+        })
+    })
+    .then(res => res.json())
+    .then(data => {
+
+        removeTyping();
+
+        if (data.type === "ai") addMessage(data.response, "bot");
+
+        else if (data.type === "product") {
+            data.data.forEach(p => addProduct(p));
+            if (data.follow_up) addMessage(data.follow_up, "bot");
+        }
+
+        else if (data.type === "brochure") addBrochureOptions(data.message);
+
+        else if (data.type === "escalation") addMessage(data.message, "bot");
+
+    });
+}
+
+/* ENTER KEY */
+document.getElementById("input").addEventListener("keypress", e => {
+    if (e.key === "Enter") sendMessage();
+});
+
+</script>
+
+</body>
+</html>

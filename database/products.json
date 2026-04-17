@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "name": "Industrial Ball Valve",
+    "category": "Valves",
+    "price": 2500,
+    "description": "High pressure stainless steel ball valve",
+    "applications": "Oil, gas, water pipelines",
+    "stock": "Available"
+  },
+
+  {
+    "id": 2,
+    "name": "Pipe Flange",
+    "category": "Fittings",
+    "price": 800,
+    "description": "Carbon steel pipe flange",
+    "applications": "Pipeline connections",
+    "stock": "Available"
+  },
+
+  {
+    "id": 3,
+    "name": "Industrial Gasket",
+    "category": "Sealing",
+    "price": 200,
+    "description": "Heat resistant sealing gasket",
+    "applications": "High temperature systems",
+    "stock": "Limited"
+  }
+]

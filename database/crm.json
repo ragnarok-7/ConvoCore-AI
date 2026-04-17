@@ -1,0 +1,715 @@
+[
+    {
+        "query": "Industrial Ball Valve",
+        "products": [
+            "Industrial Ball Valve"
+        ],
+        "lead_score": 1,
+        "lead_type": "Warm",
+        "time": "2026-03-20 12:19:59.778831"
+    },
+    {
+        "query": "Industrial Ball Valve and Pipe Flange",
+        "products": [
+            "Industrial Ball Valve",
+            "Pipe Flange"
+        ],
+        "lead_score": 2,
+        "lead_type": "Hot",
+        "time": "2026-03-20 12:20:26.629845"
+    },
+    {
+        "query": "hello",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "time": "2026-03-20 12:20:43.811804"
+    },
+    {
+        "query": "hello",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "time": "2026-03-20 12:20:52.797283"
+    },
+    {
+        "query": "hello",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "time": "2026-03-20 12:25:54.684896"
+    },
+    {
+        "query": "hello",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "time": "2026-03-20 12:31:08.795735"
+    },
+    {
+        "query": "Industrial Ball Valve",
+        "products": [
+            "Industrial Ball Valve"
+        ],
+        "lead_score": 1,
+        "lead_type": "Warm",
+        "time": "2026-03-20 12:31:33.560819"
+    },
+    {
+        "query": "hello",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "time": "2026-03-20 12:31:40.671276"
+    },
+    {
+        "query": "INdustrial Ball Valve and pipe flange",
+        "products": [
+            "Industrial Ball Valve",
+            "Pipe Flange"
+        ],
+        "lead_score": 2,
+        "lead_type": "Hot",
+        "time": "2026-03-20 12:48:17.560924"
+    },
+    {
+        "query": "INdustrial Ball Valve and pipe flange",
+        "products": [
+            "Industrial Ball Valve",
+            "Pipe Flange"
+        ],
+        "lead_score": 2,
+        "lead_type": "Hot",
+        "priority": "High",
+        "followup_required": true,
+        "sales_alert": true,
+        "time": "2026-03-20 12:48:38.030556"
+    },
+    {
+        "query": "hello",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-03-24 01:25:30.891823"
+    },
+    {
+        "query": "industrial ball valve",
+        "products": [
+            "Industrial Ball Valve"
+        ],
+        "lead_score": 1,
+        "lead_type": "Warm",
+        "priority": "Medium",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-03-24 01:25:57.014267"
+    },
+    {
+        "query": "Industrial Ball Valve and Pipe Flange",
+        "products": [
+            "Industrial Ball Valve",
+            "Pipe Flange"
+        ],
+        "lead_score": 2,
+        "lead_type": "Hot",
+        "priority": "High",
+        "followup_required": true,
+        "sales_alert": true,
+        "time": "2026-03-24 01:26:21.740511"
+    },
+    {
+        "query": "hello",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-03-24 01:29:16.133980"
+    },
+    {
+        "query": "Industrial Ball Valve",
+        "products": [
+            "Industrial Ball Valve"
+        ],
+        "lead_score": 1,
+        "lead_type": "Warm",
+        "priority": "Medium",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-03-24 01:29:36.579122"
+    },
+    {
+        "query": "INdustrial Ball Valve and Pipe flange",
+        "products": [
+            "Industrial Ball Valve",
+            "Pipe Flange"
+        ],
+        "lead_score": 2,
+        "lead_type": "Hot",
+        "priority": "High",
+        "followup_required": true,
+        "sales_alert": true,
+        "time": "2026-03-24 01:29:49.614235"
+    },
+    {
+        "query": "send brochure ",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-03-24 01:30:15.708990"
+    },
+    {
+        "query": "send brochure ",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-03-24 01:31:04.050338"
+    },
+    {
+        "query": "hello",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-03-24 01:58:31.065749"
+    },
+    {
+        "query": "hello",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-03-24 02:03:59.388234"
+    },
+    {
+        "query": "what products do you sell",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-03-24 02:04:13.536003"
+    },
+    {
+        "query": "what products doo you sell?",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-03-24 02:04:23.792637"
+    },
+    {
+        "query": "hello",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-03-24 02:10:26.734135"
+    },
+    {
+        "query": "what products do you sell",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-03-24 02:10:47.293630"
+    },
+    {
+        "query": "hello",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-03-24 02:14:04.204424"
+    },
+    {
+        "query": "hello",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-08 10:08:49.704990"
+    },
+    {
+        "query": "good morning",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-08 10:09:00.232773"
+    },
+    {
+        "query": "hello",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-09 08:49:21.716239"
+    },
+    {
+        "query": "good afternooon do you have any idea of ReLU",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-09 08:49:48.509776"
+    },
+    {
+        "query": "hello",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-12 08:13:27.362230"
+    },
+    {
+        "query": "send brochure",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-12 08:14:43.557331"
+    },
+    {
+        "query": "tell me about industrial balll valve",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-12 08:16:02.026029"
+    },
+    {
+        "query": "what is its price",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-12 08:16:28.329114"
+    },
+    {
+        "query": "Tell me about Industrial Ball Valve",
+        "products": [
+            "Industrial Ball Valve"
+        ],
+        "lead_score": 1,
+        "lead_type": "Warm",
+        "priority": "Medium",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-12 08:24:48.477952"
+    },
+    {
+        "query": "hello",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-12 08:42:21.131451"
+    },
+    {
+        "query": "hello",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-12 10:59:55.312006"
+    },
+    {
+        "query": "industrial valve",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-12 11:00:15.928190"
+    },
+    {
+        "query": "what is its price",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-12 11:00:38.468415"
+    },
+    {
+        "query": "hello",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-12 11:05:01.264287"
+    },
+    {
+        "query": "industrial valve",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-12 11:05:13.117069"
+    },
+    {
+        "query": "what is its price",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-12 11:05:26.617454"
+    },
+    {
+        "query": "hello",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-12 11:18:12.939393"
+    },
+    {
+        "query": "hello",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-12 11:18:53.368335"
+    },
+    {
+        "query": "Hello",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-12 11:22:16.901979"
+    },
+    {
+        "query": "INdustrial Valve",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-12 11:22:24.693376"
+    },
+    {
+        "query": "Industrial Valve",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-12 11:23:05.873129"
+    },
+    {
+        "query": "hello",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-12 11:32:42.707915"
+    },
+    {
+        "query": "Industrial Valve",
+        "products": [
+            "Industrial Ball Valve",
+            "Industrial Gasket"
+        ],
+        "lead_score": 2,
+        "lead_type": "Hot",
+        "priority": "High",
+        "followup_required": true,
+        "sales_alert": true,
+        "time": "2026-04-12 11:33:00.061510"
+    },
+    {
+        "query": "Hello",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-12 11:36:42.827766"
+    },
+    {
+        "query": "Industrial Valve",
+        "products": [
+            "Industrial Ball Valve",
+            "Industrial Gasket"
+        ],
+        "lead_score": 2,
+        "lead_type": "Hot",
+        "priority": "High",
+        "followup_required": true,
+        "sales_alert": true,
+        "time": "2026-04-12 11:36:50.520342"
+    },
+    {
+        "query": "what is 2+2",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-12 11:36:58.465367"
+    },
+    {
+        "query": "what are the products that you sell",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-12 11:38:48.984083"
+    },
+    {
+        "query": "any thing else that you selk",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-12 11:39:01.578307"
+    },
+    {
+        "query": "what are all the products you sell",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-12 11:46:27.288935"
+    },
+    {
+        "query": "hello",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-12 11:47:27.083252"
+    },
+    {
+        "query": "Hello",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-12 11:48:15.509626"
+    },
+    {
+        "query": "hello",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-12 11:53:08.897745"
+    },
+    {
+        "query": "hello",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-12 11:58:25.277757"
+    },
+    {
+        "query": "Email",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-12 11:58:42.823741"
+    },
+    {
+        "query": "ankushpatra19599@gmail,com",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-12 11:59:01.277427"
+    },
+    {
+        "query": "Industrial Valve",
+        "products": [
+            "Industrial Ball Valve",
+            "Industrial Gasket"
+        ],
+        "lead_score": 2,
+        "lead_type": "Hot",
+        "priority": "High",
+        "followup_required": true,
+        "sales_alert": true,
+        "time": "2026-04-12 11:59:15.657274"
+    },
+    {
+        "query": "Do you sell Industrial Valve",
+        "products": [
+            "Industrial Ball Valve",
+            "Industrial Gasket"
+        ],
+        "lead_score": 2,
+        "lead_type": "Hot",
+        "priority": "High",
+        "followup_required": true,
+        "sales_alert": true,
+        "time": "2026-04-12 11:59:31.505004"
+    },
+    {
+        "query": "hello",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-12 12:20:48.224844"
+    },
+    {
+        "query": "what products do you sell",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-12 12:21:08.164843"
+    },
+    {
+        "query": "hello",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-18 02:16:22.974473"
+    },
+    {
+        "query": "WhatsApp",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-18 02:16:44.912515"
+    },
+    {
+        "query": "hello",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-18 02:20:05.136578"
+    },
+    {
+        "query": "industrial valve",
+        "products": [
+            "Industrial Ball Valve",
+            "Industrial Gasket"
+        ],
+        "lead_score": 2,
+        "lead_type": "Hot",
+        "priority": "High",
+        "followup_required": true,
+        "sales_alert": true,
+        "time": "2026-04-18 02:20:15.315891"
+    },
+    {
+        "query": "hello",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-18 02:22:45.641442"
+    },
+    {
+        "query": "hello",
+        "products": null,
+        "lead_score": 0,
+        "lead_type": "Cold",
+        "priority": "Low",
+        "followup_required": false,
+        "sales_alert": false,
+        "time": "2026-04-18 03:07:45.720851"
+    }
+]

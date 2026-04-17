@@ -1,0 +1,11 @@
+google-generativeai
+fastapi
+uvicorn
+python-dotenv
+pillow
+opencv-python
+numpy
+pydantic
+requests
+faiss-cpu
+sentence-transformers
